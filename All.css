@@ -1,0 +1,136 @@
+@font-face {
+    font-family: stark;
+    src: url(Fonts/Stark.otf);
+}
+@font-face {
+    font-family: magra;
+    src: url(Fonts/Magra-Regular.ttf);
+}
+@font-face {
+    font-family: mickey;
+    src: url(Fonts/MouseMemoirs-Regular.ttf);
+}
+@font-face {
+    font-family: disney;
+    src: url(Fonts/waltograph42.otf);
+}
+@font-face {
+    font-family: disney2;
+    src: url(Fonts/waltographUI.ttf);
+}
+body {
+    /*background-image: url("https://wallwidehd.com/wp-content/uploads/Ant-Man-2015-Movie-Poster-Wallpaper.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: 100px 80px;*/
+    background-color:#82CAFA;
+    font-family: mickey;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+.backImage{
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#header {
+    background-color: black;
+    border-bottom-left-radius:1em;
+    border-bottom-right-radius:1em;
+    margin-top:-1em;
+    margin-left:.5em;
+    margin-right:1em;
+    height: 7.5em;
+    position:fixed;
+    overflow:hidden;
+    z-index: 100;
+}
+#headerLeft {
+    height: 8em;
+    width: 6em;
+}
+#headerRight {
+    height: 8em;
+    width: 78em;
+}
+#headTitle {
+    color:#82CAFA;
+    font-size:4em;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-shadow:1px 1px #ffffff, 2px 2px #ffffff;
+    font-family: disney;
+    font-weight:lighter;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.clicky {
+    margin-left: auto;
+    margin-right: auto;
+    height:1.55em;
+    width:5em;
+    font-size:2em;
+    border-radius:2em;
+    background-color:black;
+    border:grey;
+    color:#82CAFA;
+    font-family: disney;
+    font-weight:lighter;
+    cursor:pointer;
+}
+.clicky:hover {
+    background-color:black;
+    color: #82CAFA;
+    border:.07em solid #82CAFA;
+}
+#main {
+    background-color:white;
+    height:auto;
+    width:60em;
+    margin-top:7em;
+    position:absolute;
+    left:14.5%;
+    margin-bottom:1em;
+    border-radius:1em;
+}
+.text {
+    margin-left: .7em;
+    font-size:1.4em;
+}
+.title {
+    margin-left: .5em;
+    font-size: 3em;
+    font-family:disney;
+    font-weight:lighter;
+}
+#left {
+    float: left;
+    width:33em;
+}
+#right {
+    float: left;
+    width:27em;
+}
+#mainImage {
+    width: 90%;
+    margin-top:-1em;
+}
+.disImage {
+    width: 45%;
+}
+li.a {
+    cursor:pointer;
+}
+li.a:hover {
+    color:#FF0000;
+}
+.composer:hover {
+    color:blue;
+}
+li.b {
+    list-style-type: circle;
+    margin-left: 2em;
+    font-size:.9em;
+}
